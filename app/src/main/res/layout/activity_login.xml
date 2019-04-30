@@ -59,7 +59,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="65dp"
         android:text="Login"
-        android:textColor="@color/colorWhite" />
+        android:textColor="@color/colorAccent" />
 
     <android.support.design.widget.TextInputLayout
         android:id="@+id/validasiIDPasien"
@@ -69,8 +69,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="265dp"
-        android:textColor="@color/colorWhite"
-        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorHint"
         app:errorEnabled="true">
 
         <android.support.design.widget.TextInputEditText
@@ -108,11 +108,12 @@
     </android.support.design.widget.TextInputLayout>
 
     <TextView android:id="@+id/txtRegister"
-        android:layout_width="176dp"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="22dp"
+        android:layout_marginLeft="250dp"
         android:text="Registrasi Pasien"
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
